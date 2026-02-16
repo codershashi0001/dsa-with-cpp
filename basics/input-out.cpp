@@ -1,3 +1,6 @@
+// wap to take an input and give output
+
+
 #include <iostream>
 #include <string>
 using namespace std ;

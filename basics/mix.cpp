@@ -1,4 +1,4 @@
-// Add, Subtract , Multiply, Divide
+// write a program to Add, Subtract , Multiply, Divide of a number
  #include <iostream>
  using namespace std;
  int  main (){

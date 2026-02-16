@@ -1,3 +1,5 @@
+// wap to check the given number is odd or even
+
 #include <iostream>
 using namespace std;
 
