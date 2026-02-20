@@ -5,23 +5,25 @@ using namespace std;
 
 int main (){
   
-       int first, second , n ,diff = 0, result = 0 , i,j,res ;
+       int first, second , n ,diff = 0, result = 0 , i,j,res = 0 ;
        cout << "enter first number ";
        cin >> first;
        cout << "enter second number";
        cin >> second ; 
        cout << "enter which term you want";
        cin >> n;
-
+//  if (n == 2 || n == 1)
+//  cout << "invalid number, number shoubd be greater than zero";
        diff = second - first ;
        
         result = second + diff ;
-        res = result;
+       
        for (i=1; i < (n - 2); i++){
-if (n > 2){
+        
+        if (n != 2 || n != 1){
+          res = result;
          res = res + diff ;}
-         else {
-         cout << "invalid n number";}
+       
         
         // if (i<1)
         // result = second + diff ;
@@ -29,8 +31,10 @@ if (n > 2){
         // result = result + diff;
 
        }
-
+if (res>0)
        cout << res ;
+       else
+       cout << "invalid nth number";
      
     return 0;
 }
