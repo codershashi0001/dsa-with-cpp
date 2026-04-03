@@ -4,7 +4,7 @@
 using namespace std;
 
 int main (){
-
+    
     int n1 , n2 , i , result , n , diff = 0 ;
 
     cout << "Find the nth term of you number series through first two number" << endl;
