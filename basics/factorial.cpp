@@ -2,8 +2,11 @@
 using namespace std;
 
 int main (){
-    // concept if n = 5 
+
+    // concept 
+    // if n = 5 
     // 5 * 4 * 3 * 2 * 1 or 1 * 2 * 3 * 4 * 5
+    
 int n ,result = 1, p;
 
 cout << "Enter a number to find the factorial ";
