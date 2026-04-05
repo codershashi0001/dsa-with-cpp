@@ -21,26 +21,30 @@ cin >> n;
 cout << "Enter a number which not equal to zero ";
 cin >> m ;
 
-// r = n / m ;
-for (i=0, j = 0;   i < 5; i++, j-- ) {
-    n1 = n - j ;
-    n2 = n + i;
-if (n % m == 0)
-{
-    cout << endl << n << " is divisible by " << m ;
-    break;
-} 
-else if (n1 % m == 0)
-{
-    cout << endl << n1 << " is divisible by " << m ;
-    break;
-}else if (n2 % m == 0) {
-    cout << endl << n2 << " is divisible by " << m ;
-    break;
+n1 = n ;
+n2 = n ;
 
-}
+    n1 = n1 - 1 ;
+    n2 = n2 + 1;
 
-}
+    
+
+// if (n % m == 0)
+// {
+//     cout << endl << n << " is divisible by " << m ;
+ 
+// } 
+// else if (n1 % m == 0)
+// {
+//     cout << endl << n1 << " is divisible by " << m ;
+
+// }else if (n2 % m == 0) {
+//     cout << endl << n2 << " is divisible by " << m ;
+
+
+// }
+
+
 
 
 
